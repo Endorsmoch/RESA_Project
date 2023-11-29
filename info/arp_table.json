@@ -1,0 +1,36 @@
+{
+    "arp_table": [
+        {
+            "Protocol": "Internet",
+            "Address": "172.16.60.1",
+            "Age (min)": "-",
+            "Hardware Addr": "001d.a104.bde9",
+            "Type": "ARPA",
+            "Interface": "FastEthernet0/1"
+        },
+        {
+            "Protocol": "Internet",
+            "Address": "172.16.60.2",
+            "Age (min)": "100",
+            "Hardware Addr": "001e.14cd.b5c1",
+            "Type": "ARPA",
+            "Interface": "FastEthernet0/1"
+        },
+        {
+            "Protocol": "Internet",
+            "Address": "192.168.1.65",
+            "Age (min)": "-",
+            "Hardware Addr": "001d.a104.bde8",
+            "Type": "ARPA",
+            "Interface": "FastEthernet0/0"
+        },
+        {
+            "Protocol": "Internet",
+            "Address": "192.168.1.254",
+            "Age (min)": "0",
+            "Hardware Addr": "c8f8.6dab.7c98",
+            "Type": "ARPA",
+            "Interface": "FastEthernet0/0"
+        }
+    ]
+}
