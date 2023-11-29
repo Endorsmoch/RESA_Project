@@ -30,4 +30,3 @@ class Graph:
   
   def __are_not_the_same(self, node1, node2) -> bool:
     return node1.get_id() != node2.get_id()
-
