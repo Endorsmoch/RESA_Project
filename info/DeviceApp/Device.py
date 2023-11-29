@@ -2,7 +2,7 @@ from GraphApp.Node import *
 
 class Device(Node):
   def __init__(self, id, ips, visited) -> None:
-    super(id)
+    super().__init__(id)
     self._ips = ips
     self._visited = visited
 

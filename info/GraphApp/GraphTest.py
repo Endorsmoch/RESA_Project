@@ -5,8 +5,12 @@ from GraphApp.Node import *
 class GraphTest(unittest.TestCase):
   def setUp(self):
     self.graph = Graph()
-    self.node1 = Node(1)
-    self.node2 = Node(2)
+
+    self.node1_id = "id-1"
+    self.node1 = Node(self.node1_id)
+
+    self.node2_id = "id-2"
+    self.node2 = Node(self.node2_id)
 
   def test_add_node(self):
     self.graph.add_node(self.node1)
@@ -31,10 +35,10 @@ class GraphTest(unittest.TestCase):
 
   def test_get_node(self):
     self.graph.add_node(self.node1)
-    self.assertEqual(self.graph.get_node(1), self.node1)
+    self.assertEqual(self.graph.get_node(self.node1_id), self.node1)
 
   def test_get_non_existing_node(self):
-    self.assertTrue(self.graph.get_node(1) is None)
+    self.assertTrue(self.graph.get_node(self.node2_id) is None)
 
   def test_add_relationship(self):
     self.graph.add_node(self.node1)
