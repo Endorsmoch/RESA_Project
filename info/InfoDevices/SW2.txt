@@ -1,0 +1,134 @@
+
+SW2>
+SW2>en
+Password:
+SW2#sho
+SW2#show cdp en
+SW2#show cdp entry *
+-------------------------
+Device ID: SW1
+Entry address(es):
+  IP address: 172.16.1.1
+Platform: cisco WS-C3560-24TS,  Capabilities: Router Switch IGMP
+Interface: FastEthernet0/1,  Port ID (outgoing port): FastEthernet0/23
+Holdtime : 151 sec
+
+Version :
+Cisco IOS Software, C3560 Software (C3560-IPSERVICESK9-M), Version 12.2(55)SE11, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 17-Aug-16 13:07 by prod_rel_team
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=00000000FFFFFFFF010221FF000000000000001E14CDB580FF0000
+VTP Management Domain: ''
+Duplex: full
+Management address(es):
+  IP address: 172.16.1.1
+
+-------------------------
+Device ID: SW3.ccna.edu
+Entry address(es):
+  IP address: 172.16.1.6
+Platform: cisco WS-C3560-24TS,  Capabilities: Router Switch IGMP
+Interface: FastEthernet0/23,  Port ID (outgoing port): FastEthernet0/1
+Holdtime : 146 sec
+
+Version :
+Cisco IOS Software, C3560 Software (C3560-IPSERVICESK9-M), Version 12.2(55)SE11, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 17-Aug-16 13:07 by prod_rel_team
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=00000000FFFFFFFF010221FF000000000000001E4A097380FF0000
+VTP Management Domain: ''
+Duplex: full
+Management address(es):
+  IP address: 172.16.1.6
+
+SW2#
+SW2#show
+SW2#show cdp nei
+SW2#show cdp neighbors
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+SW1              Fas 0/1           137             R S I  WS-C3560- Fas 0/23
+SW3.ccna.edu     Fas 0/23          134             R S I  WS-C3560- Fas 0/1
+SW2#
+SW2#show
+SW2#show ip int bri
+SW2#show ip int brief
+Interface              IP-Address      OK? Method Status                Protocol
+Vlan1                  192.168.10.1    YES NVRAM  up                    down
+FastEthernet0/1        172.16.1.2      YES NVRAM  up                    up
+FastEthernet0/2        unassigned      YES unset  down                  down
+FastEthernet0/3        unassigned      YES unset  down                  down
+FastEthernet0/4        unassigned      YES unset  down                  down
+FastEthernet0/5        unassigned      YES unset  down                  down
+FastEthernet0/6        unassigned      YES unset  down                  down
+FastEthernet0/7        unassigned      YES unset  down                  down
+FastEthernet0/8        unassigned      YES unset  down                  down
+FastEthernet0/9        unassigned      YES unset  down                  down
+FastEthernet0/10       unassigned      YES unset  down                  down
+FastEthernet0/11       unassigned      YES unset  down                  down
+FastEthernet0/12       unassigned      YES unset  down                  down
+FastEthernet0/13       unassigned      YES unset  down                  down
+FastEthernet0/14       unassigned      YES unset  down                  down
+FastEthernet0/15       unassigned      YES unset  down                  down
+FastEthernet0/16       unassigned      YES unset  down                  down
+FastEthernet0/17       unassigned      YES unset  down                  down
+FastEthernet0/18       unassigned      YES unset  down                  down
+FastEthernet0/19       unassigned      YES unset  down                  down
+FastEthernet0/20       unassigned      YES unset  down                  down
+FastEthernet0/21       unassigned      YES unset  down                  down
+FastEthernet0/22       unassigned      YES unset  down                  down
+FastEthernet0/23       172.16.1.5      YES NVRAM  up                    up
+FastEthernet0/24       unassigned      YES unset  down                  down
+GigabitEthernet0/1     unassigned      YES unset  down                  down
+GigabitEthernet0/2     unassigned      YES unset  down                  down
+Loopback1              172.16.5.1      YES NVRAM  up                    up
+Loopback2              172.16.6.1      YES NVRAM  up                    up
+Loopback3              172.16.7.1      YES NVRAM  up                    up
+SW2#
+SW2#show mac add
+SW2#show mac address-table
+          Mac Address Table
+-------------------------------------------
+
+Vlan    Mac Address       Type        Ports
+----    -----------       --------    -----
+ All    0100.0ccc.cccc    STATIC      CPU
+ All    0100.0ccc.cccd    STATIC      CPU
+ All    0180.c200.0000    STATIC      CPU
+ All    0180.c200.0001    STATIC      CPU
+ All    0180.c200.0002    STATIC      CPU
+ All    0180.c200.0003    STATIC      CPU
+ All    0180.c200.0004    STATIC      CPU
+ All    0180.c200.0005    STATIC      CPU
+ All    0180.c200.0006    STATIC      CPU
+ All    0180.c200.0007    STATIC      CPU
+ All    0180.c200.0008    STATIC      CPU
+ All    0180.c200.0009    STATIC      CPU
+ All    0180.c200.000a    STATIC      CPU
+ All    0180.c200.000b    STATIC      CPU
+ All    0180.c200.000c    STATIC      CPU
+ All    0180.c200.000d    STATIC      CPU
+ All    0180.c200.000e    STATIC      CPU
+ All    0180.c200.000f    STATIC      CPU
+ All    0180.c200.0010    STATIC      CPU
+ All    ffff.ffff.ffff    STATIC      CPU
+Total Mac Addresses for this criterion: 20
+SW2#
+SW2#show arp
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  192.168.10.1            -   001e.13db.b640  ARPA   Vlan1
+Internet  172.16.1.5              -   001e.13db.b642  ARPA   FastEthernet0/23
+Internet  172.16.1.6            143   001e.4a09.73c1  ARPA   FastEthernet0/23
+Internet  172.16.1.1            143   001e.14cd.b5c2  ARPA   FastEthernet0/1
+Internet  172.16.1.2              -   001e.13db.b641  ARPA   FastEthernet0/1
+SW2#
+

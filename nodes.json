@@ -1,10 +1,6 @@
 {   
-    "type": "switch",
-    "model": "Cisco 2935",
-    "hostname": "SW1",
     "mac": "mac.add",
-    "ips": ["192.168.10.1", "172.16.1.1"],
-    "interfaces": ["Fa0/1", "Fa0/2"],
-    "neighbors": ["ext.mac.1", "ext.mac.2"],
-    "neighbors_int":["Fa0/1", "Fa0/2"]
+    "type": "switch",
+    "ips_int": [{"ip": "192.168.10.1", "int":"Fa0/1"}, {"ip": "172.16.1.1", "int": "Fa0/2"}],
+    "neighbors_int":[{"mac":"ext.mac.1", "int": "Fa0/1"}, {"mac":"ext.mac.2", "int": "Fa0/2"}]
 }

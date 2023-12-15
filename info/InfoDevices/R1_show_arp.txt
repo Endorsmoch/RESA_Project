@@ -1,0 +1,5 @@
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  172.16.60.1             -   001d.a104.bde9  ARPA   FastEthernet0/1
+Internet  172.16.60.2             1   001e.14cd.b5c1  ARPA   FastEthernet0/1
+Internet  192.168.1.66            -   001d.a104.bde8  ARPA   FastEthernet0/0
+Internet  192.168.1.254           0   c8f8.6dab.7c98  ARPA   FastEthernet0/0

@@ -1,0 +1,18 @@
+-------------------------
+Device ID: SW1
+Entry address(es):
+  IP address: 172.16.60.2
+Platform: cisco WS-C3560-24TS,  Capabilities: Router Switch IGMP
+Interface: FastEthernet0/1,  Port ID (outgoing port): FastEthernet0/1
+Holdtime : 146 sec
+
+Version :
+Cisco IOS Software, C3560 Software (C3560-IPSERVICESK9-M), Version 12.2(55)SE11, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 17-Aug-16 13:07 by prod_rel_team
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=00000000FFFFFFFF010221FF000000000000001E14CDB580FF0000
+VTP Management Domain: ''
+Duplex: full

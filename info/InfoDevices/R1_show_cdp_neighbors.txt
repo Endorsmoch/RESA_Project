@@ -1,0 +1,5 @@
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+SW1              Fas 0/1            140         R S I     WS-C3560- Fas 0/1
