@@ -1,0 +1,66 @@
+
+R1#
+R1#
+R1#show
+R1#show en
+R1#show cdp en
+R1#show cdp entry *
+-------------------------
+Device ID: SW1
+Entry address(es):
+  IP address: 172.16.60.2
+Platform: cisco WS-C3560-24TS,  Capabilities: Router Switch IGMP
+Interface: FastEthernet0/1,  Port ID (outgoing port): FastEthernet0/1
+Holdtime : 146 sec
+
+Version :
+Cisco IOS Software, C3560 Software (C3560-IPSERVICESK9-M), Version 12.2(55)SE11, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 17-Aug-16 13:07 by prod_rel_team
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=00000000FFFFFFFF010221FF000000000000001E14CDB580FF0000
+VTP Management Domain: ''
+Duplex: full
+
+R1#
+R1#sho cdp
+R1#sho cdp ne
+R1#sho cdp neighbors
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+SW1              Fas 0/1            140         R S I     WS-C3560- Fas 0/1
+R1#
+R1#sho
+R1#sho ip int br
+R1#sho ip int brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.1.66    YES DHCP   up                    up  
+FastEthernet0/1            172.16.60.1     YES NVRAM  up                    up  
+Serial0/0/0                unassigned      YES NVRAM  administratively down down
+NVI0                       unassigned      YES unset  administratively down down
+Tunnel1                    10.10.21.1      YES NVRAM  up                    up  
+R1# sho
+R1# show macc
+R1# show mac
+R1# show mac-address-table
+
+R1# show mac-address-table
+
+R1# show mac-address-table
+
+R1#sho
+R1#show mac
+R1#show mac-address-table
+
+R1#show arp
+R1#show arp
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  172.16.60.1             -   001d.a104.bde9  ARPA   FastEthernet0/1
+Internet  172.16.60.2             1   001e.14cd.b5c1  ARPA   FastEthernet0/1
+Internet  192.168.1.66            -   001d.a104.bde8  ARPA   FastEthernet0/0
+Internet  192.168.1.254           0   c8f8.6dab.7c98  ARPA   FastEthernet0/0
+R1#

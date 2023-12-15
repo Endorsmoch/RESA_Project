@@ -1,0 +1,10 @@
+Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version 15.1(4)M4, RELEASE SOFTWARE (fc2)
+Copyright (c) 1986-2012 by Cisco Systems, Inc.
+Compiled Thurs 5-Jan-12 15:41 by pt_team
+ROM: System Bootstrap, Version 15.1(4)M4, RELEASE SOFTWARE (fc1)
+cisco2901 uptime is 24 minutes, 57 seconds
+System image file is "flash0:c2900-universalk9-mz.SPA.151-1.M4.bin"
+Cisco CISCO2901/K9 (revision 1.0) with 491520K/32768K bytes of memory.
+Processor board ID FTX152400KS
+*0        CISCO2901/K9          FTX1524U649-
+Configuration register is 0x2102

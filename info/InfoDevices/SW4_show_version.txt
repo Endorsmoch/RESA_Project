@@ -1,0 +1,13 @@
+Cisco IOS Software, C3560 Software (C3560-ADVIPSERVICESK9-M), Version 12.2(37)SE1, RELEASE SOFTWARE (fc1)
+Copyright (c) 1986-2007 by Cisco Systems, Inc.
+Image text-base: 0x00003000, data-base: 0x01500000
+ROM: C3560 Boot Loader (C3560-HBOOT-M) Version 12.2(25r)SEC, RELEASE SOFTWARE (fc4)
+cisco WS-C3560-24PS (PowerPC405) processor (revision P0) with 122880K/8184K bytes of memory.
+Processor board ID CAT1037RJF7
+Power supply part number        : 341-0029-05
+Motherboard serial number       : CAT103758VY
+Power supply serial number      : DTH1036C7UB
+System serial number            : CAT1037RJF7
+CLEI Code Number                : COM1100ARC
+Hardware Board Revision Number  : 0x01
+*    1   26     WS-C3560-24PS      12.2(37)SE1             C3560-ADVIPSERVICESK

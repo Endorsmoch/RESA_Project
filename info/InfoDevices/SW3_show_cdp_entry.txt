@@ -1,0 +1,41 @@
+-------------------------
+Device ID: SW2.ccna2023-SW2
+Entry address(es):
+  IP address: 172.16.1.5
+Platform: cisco WS-C3560-24TS,  Capabilities: Router Switch IGMP
+Interface: FastEthernet0/1,  Port ID (outgoing port): FastEthernet0/23
+Holdtime : 142 sec
+
+Version :
+Cisco IOS Software, C3560 Software (C3560-IPSERVICESK9-M), Version 12.2(55)SE11, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 17-Aug-16 13:07 by prod_rel_team
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=00000000FFFFFFFF010221FF000000000000001E13DBB600FF0000
+VTP Management Domain: ''
+Duplex: full
+Management address(es):
+  IP address: 172.16.1.5
+
+-------------------------
+Device ID: SW4
+Entry address(es):
+  IP address: 172.16.1.10
+Platform: cisco WS-C3560-24TS,  Capabilities: Router Switch IGMP
+Interface: FastEthernet0/23,  Port ID (outgoing port): FastEthernet0/2
+Holdtime : 168 sec
+
+Version :
+Cisco IOS Software, C3560 Software (C3560-IPSERVICESK9-M), Version 12.2(55)SE11, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Wed 17-Aug-16 13:07 by prod_rel_team
+
+advertisement version: 2
+Protocol Hello:  OUI=0x00000C, Protocol ID=0x0112; payload len=27, value=00000000FFFFFFFF010221FF000000000000001E14C14E80FF0000
+VTP Management Domain: ''
+Duplex: full
+Management address(es):
+  IP address: 172.16.1.10
